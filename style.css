@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(66, 88, 20);
+    height: 300px;
+    padding: 50px;
+    border-bottom: 3px solid rgb(54, 149, 16);
+    ;
+}
+
+.header-title h1 {
+    font-size: 64px;
+    text-shadow: 2px 2px 3px rgba(128, 255, 0, 0.376);
+
+}
+
+.header-title h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    text-shadow: 2px 2px 3px rgba(128, 255, 0, 0.376);
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.conteudo-imagens img {
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px black;
+    margin: 30px;
+    margin-top: 3em;
+    width: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    justify-content: center;
+
+}
+
+.conteudo-secundario h1,
+h2 {
+    text-align: center;
+    font-size: 30;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+
+}
+
+.title-historia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    margin: 23px;
+}
+
+.title-historia-carreira {
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: center;
+    color: white;
+    background-color: rgb(79, 107, 23);
+    width: 600px;
+    height: 130px;
+    text-align: center;
+    box-shadow: 2px 3px 7px rgb(11, 34, 17);
+    border-left: 6px solid rgb(11, 207, 11);
+}
+
+.radape {
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+    padding: 20px;
+}
+
+.radape a {
+    text-decoration: none;
+    color: rgb(0, 255, 119);
+}
+
+.radape a:hover {
+    color: rgba(14, 97, 49, 0.801);
+}
+
+.radape strong {
+    color: rgba(74, 182, 25, 0.5);
+}
